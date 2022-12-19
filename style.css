@@ -1,0 +1,122 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #A6D1E6;
+  --color-yellow: #FFF9CA;
+  --color-pink: #FFB4B4;
+  --color-light-grey: #dfdfdf;
+  --color-light-beige: #F3EFE0;
+  --color-beige: #DFD3C3;
+  --color-purple: #ADA2FF;
+  --color-black2: #434242;
+  --color-dark-beige: #D0B8A8;
+  --color-dark-purple: #85586F;
+
+  /* Size */
+  --base-space: 8px;
+  --size-button: 60px;
+  --size-border: 4px;
+  --size-thumbnail: 50px;
+  --font-size: 18px;
+
+  /* Animation */
+  --animation-duration: 300ms;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: var(--color-light-beige);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  transition: transform var(--animation-duration) ease;
+  width: 220px;
+  margin-bottom: var(--base-space);
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: var(--base-space);
+}
+
+.btn:hover,
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.imgBtn {
+  width: var(--size-button);
+  height: var(--size-button);
+}
+
+.colorBtn {
+  font-size: var(--font-size);
+  padding: calc(var(--base-space) * 2);
+  border-radius: var(--size-border);
+}
+
+.blue {
+  background-color: var(--color-blue);
+}
+
+.yellow {
+  background-color: var(--color-yellow);
+}
+
+.pink {
+  background-color: var(--color-pink);
+}
+
+.purple {
+  background-color: var(--color-purple);
+}
+
+.black {
+  color: white;
+  background-color: var(--color-black2)
+}
+
+.items {
+  width: 60%;
+  height: 60%;
+  list-style: none;
+  padding-left: 0;
+  overflow-y: scroll;
+}
+
+.item {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  padding: var(--base-space);
+  margin-bottom: var(--base-space);
+}
+
+.item__thumbnail {
+  width: var(--size-thumbnail);
+  height: var(--size-thumbnail);
+}
+
+.item__description {
+  margin-left: calc(var(--base-space) * 1.5);
+  font-size: var(--font-size);
+}

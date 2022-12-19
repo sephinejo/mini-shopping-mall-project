@@ -1,0 +1,95 @@
+{
+    "items": [
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "medium",
+            "color": "pink",
+            "image": "../img/t-shirt-pink.png"
+        },
+        {
+            "type": "pants",
+            "gender": "male",
+            "size": "medium",
+            "color": "blue",
+            "image": "../img/pants-blue2.png"
+        },
+        {
+        "type": "tshirt",
+        "gender": "male",
+        "size": "large",
+        "color": "blue",
+        "image": "../img/t-shirt-blue.png"
+        },
+        {
+            "type": "pants",
+            "gender": "male",
+            "size": "large",
+            "color": "black",
+            "image": "../img/pants-black.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "small",
+            "color": "purple",
+            "image": "../img/t-shirt-purple.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "medium",
+            "color": "blue",
+            "image": "../img/skirt-blue.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "small",
+            "color": "pink",
+            "image": "../img/tshirt-pink2.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "small",
+            "color": "pink",
+            "image": "../img/skirt-pink.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "male",
+            "size": "large",
+            "color": "yellow",
+            "image": "../img/tshirt-yellow.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "large",
+            "color": "pink",
+            "image": "../img/skirt-pink3.png"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "large",
+            "color": "purple",
+            "image": "../img/tshirt-purple3.png"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "medium",
+            "color": "yellow",
+            "image": "../img/skirt-yellow.png"
+        },
+        {
+            "type": "pants",
+            "gender": "male",
+            "size": "medium",
+            "color": "black",
+            "image": "../img/jean-black.png"
+        }
+    ]
+}
